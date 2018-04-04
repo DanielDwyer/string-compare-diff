@@ -1,0 +1,20 @@
+{
+  "name": "string-compare-diff",
+  "version": "0.0.0",
+  "description": "Compare the difference between two strings using distance. Returns a number 0 to 1 showing exactly how related the two strings are.",
+  "main": "app.js",
+  "scripts": {
+    "test": "na"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-github_personal:DanielDwyerPersonal/string-compare.git"
+  },
+  "keywords": [
+    "string",
+    "compare",
+    "related"
+  ],
+  "author": "danielpatrickdwyer@gmail.com",
+  "license": "MIT"
+}

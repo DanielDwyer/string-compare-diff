@@ -25,15 +25,15 @@ const compareStr = require('string-compare-diff')
 
 #### Example Useage
 ```js
-compareStrings.strSimilarity("Dan", "Daniel")
+compareStr.strSimilarity("Dan", "Daniel")
 //returns 0.5
 ```
 ```js
-compareStrings.strSimilarity("America The Beautiful", "Canada")
+compareStr.strSimilarity("America The Beautiful", "Canada")
 //returns 0.14285714285714285
 ```
 ```js
-compareStrings.strSimilarity("Donald", "Trump")
+compareStr.strSimilarity("Donald", "Trump")
 //returns 0
 ```
 ## License

@@ -13,7 +13,9 @@
   "keywords": [
     "string",
     "compare",
-    "related"
+    "related",
+    "Levenshtein",
+    "Levenshtein Distance"
   ],
   "author": "danielpatrickdwyer@gmail.com",
   "license": "MIT"

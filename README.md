@@ -9,12 +9,11 @@
 ![License](https://img.shields.io/npm/l/string-compare-diff.svg)
 
 What is Levenshtein Distance?
-Levenshtein distance (LD) is a measure of the similarity between two strings, which we will refer to as the source string (s) and the target string (t). The distance is the number of deletions, insertions, or substitutions required to transform s into t. For example,
+"In information theory, linguistics and computer science, the Levenshtein distance is a string metric for measuring the difference between two sequences. Informally, the Levenshtein distance between two words is the minimum number of single-character edits (insertions, deletions or substitutions) required to change one word into the other. It is named after the Soviet mathematician Vladimir Levenshtein, who considered this distance in 1965.[1]
 
-If s is "test" and t is "test", then LD(s,t) = 0, because no transformations are needed. The strings are already identical.
-If s is "test" and t is "tent", then LD(s,t) = 1, because one substitution (change "s" to "n") is sufficient to transform s into t.
-The greater the Levenshtein distance, the more different the strings are.
-Levenshtein distance is named after the Russian scientist Vladimir Levenshtein, who devised the algorithm in 1965. If you can't spell or pronounce Levenshtein, the metric is also sometimes called edit distance.
+Levenshtein distance may also be referred to as edit distance, although that term may also denote a larger family of distance metrics.[2]:32 It is closely related to pairwise string alignments."
+
+- I found the above description at: https://en.wikipedia.org/wiki/Levenshtein_distance
 
 The Levenshtein distance algorithm has been used in:
 
